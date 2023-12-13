@@ -1,10 +1,9 @@
 package database
 
 import (
-	"tahanasir/service-catalog/internal/models"
-
 	"github.com/google/uuid"
 	"github.com/jmoiron/sqlx"
+	"github.com/tahanasir/service-catalog/internal/models"
 )
 
 type Storage struct {

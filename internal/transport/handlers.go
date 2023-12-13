@@ -5,10 +5,10 @@ import (
 	"math"
 	"net/http"
 	"strconv"
-	"tahanasir/service-catalog/internal/models"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/google/uuid"
+	"github.com/tahanasir/service-catalog/internal/models"
 )
 
 type dbStorage interface {

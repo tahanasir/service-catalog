@@ -3,13 +3,13 @@ package main
 import (
 	"log"
 	"net/http"
-	"tahanasir/service-catalog/internal/config"
-	"tahanasir/service-catalog/internal/database"
-	"tahanasir/service-catalog/internal/transport"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/tahanasir/service-catalog/internal/config"
+	"github.com/tahanasir/service-catalog/internal/database"
+	"github.com/tahanasir/service-catalog/internal/transport"
 )
 
 func main() {

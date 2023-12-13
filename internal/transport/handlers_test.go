@@ -4,12 +4,12 @@ import (
 	"encoding/json"
 	"net/http"
 	"net/http/httptest"
-	"tahanasir/service-catalog/internal/models"
 	"testing"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
+	"github.com/tahanasir/service-catalog/internal/models"
 	gomock "go.uber.org/mock/gomock"
 )
 

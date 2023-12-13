@@ -2,9 +2,9 @@ package database
 
 import (
 	"fmt"
-	"tahanasir/service-catalog/internal/config"
 
 	"github.com/jmoiron/sqlx"
+	"github.com/tahanasir/service-catalog/internal/config"
 )
 
 func NewDBConn(c *config.Config) (*sqlx.DB, error) {

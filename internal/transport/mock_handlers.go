@@ -10,7 +10,7 @@ package transport
 
 import (
 	reflect "reflect"
-	models "tahanasir/service-catalog/internal/models"
+	models "github.com/tahanasir/service-catalog/internal/models"
 
 	uuid "github.com/google/uuid"
 	gomock "go.uber.org/mock/gomock"
