@@ -1,4 +1,5 @@
 # service-catalog
+Service-catalog is a backend Go application that allows organizations to see a list of their microservices and their versions. Implemented as a REST API backed by a MySQL database. 
 
 ## How to run
 ```
